@@ -10,7 +10,7 @@ public class Solution {
             Integer target) {
 
         int result = -1;
-        if(nums.length > 0) {
+        if(nums!= null &&nums.length > 0) {
             int left = 0;
             int right = nums.length -1;
             int middle = 0;
